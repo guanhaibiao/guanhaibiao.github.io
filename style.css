@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1200px;
+    height: 41px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: left;
+    width: 237px;
+    height: 18px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #050505;
+    margin-left: 70px;
+}
+
+.nav>ul>li {
+    float: left;
+    line-height: 41px;
+    padding-right: 45px;
+}
+
+.nav .xiaochu {
+    padding-right: 0;
+}
+
+.search {
+    float: left;
+    line-height: 41px;
+    margin-left: 94px;
+    width: 410px;
+    height: 40px;
+    border: solid 2px #00a4ff;
+}
+
+.aa {
+    float: left;
+    width: 339px;
+    height: 40px;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 21px;
+    border: 0px;
+    outline: none;
+}
+
+.user {
+    float: left;
+    margin-left: 30px;
+    height: 36px;
+    margin-top: 5px;
+}
+
+.qq-leishui {
+    float: left;
+    margin-left: 5px;
+    width: 81px;
+    height: 41px;
+    line-height: 41px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #666666;
+}
+
+.dierbufen {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.dierbufen .w {
+    height: 420px;
+    background-image: url(images/back_03.png);
+}
+
+.touming {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bbb {
+    float: left;
+    width: 170px;
+}
+
+.wenzi li {
+    color: white;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    padding: 26px 0 0 20px;
+}
+
+.b {
+    float: left;
+}
+
+.fuhao li {
+    color: white;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    padding: 26px 20px 0 0;
+}
+
+li:hover {
+    color: #00b4ff;
+}
+
+span {
+    float: right;
+}
+
+.kecheng {
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.xiaokuang {
+    width: 160px;
+    height: 48px;
+    background: #9bceea;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 18px;
+    color: white;
+    line-height: 48px;
+    padding-left: 68px;
+}
+
+.xuexi1 {
+    font-family: FZLTCXHJW--GB1-0;
+    background-color: #fff;
+    margin: 18px 46px 16px 19px;
+}
+
+.xuexi1 .jixu {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.xuexi1 .jixu>span {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.xuexi1 .zhengzai {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a5a5a5;
+}
+
+.xuexi2 {
+    font-family: FZLTCXHJW--GB1-0;
+    background-color: #fff;
+    margin: 10px 46px 12px 19px;
+}
+
+.xuexi2 .jixu {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.xuexi2 .jixu>span {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.xuexi2 .zhengzai {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a5a5a5;
+}
+
+.xuexi3 {
+    font-family: FZLTCXHJW--GB1-0;
+    background-color: #fff;
+    margin: 11px 46px 13px 19px;
+}
+
+.xuexi3 .jixu {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.xuexi3 .jixu>span {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.xuexi3 .zhengzai {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a5a5a5;
+}
+
+
+.line {
+    width: 192px;
+    height: 2px;
+    background-color: #e5e5e5;
+    margin-left: 18px;
+}
+
+.quanbu {
+    width: 72px;
+    height: 39px;
+    border: solid 1px #00a4ff;
+    margin: 4px 14px 11px 14px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00a4ff;
+    padding: 0 64px 0 63px;
+    line-height: 39px;
+}
+
+.third {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 37px;
+}
+
+.gun {
+    float: left;
+    width: 1px;
+    height: 16px;
+    margin-top: 5px;
+    background-color: #bfbfbf;
+}
+
+
+.third>ul>li {
+    float: left;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 16px;
+    padding: 21px 0 21px 34px;
+    background-color: #fff;
+}
+
+.third .xiu {
+    float: right;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    background-color: #fff;
+    color: #00a4ff;
+    padding: 21px 26px 23px 266px;
+}
+
+.four {
+    width: 1200px;
+    height: 595px;
+    margin: 0 auto;
+
+}
+
+.foura {
+    height: 40px;
+}
+
+.foura1 {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    color: #494949;
+}
+
+.foura2 {
+    float: right;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    margin: 8px 35px 0 0;
+    color: #a5a5a5;
+}
+
+.fourb1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.fourb11 {
+    width: 229px;
+    height: 115px;
+    margin-top: -5px;
+    background-color: white;
+}
+
+.fourb12 {
+    width: 184px;
+    height: 32px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #050505;
+    padding: 25px 25px 20px 24px;
+}
+
+.fourb13 {
+    width: 121px;
+    height: 11px;
+    margin: 0 84px 27px 23px;
+}
+
+.fourb14 {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #ff7c2d;
+}
+
+.fourb15 {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #606060;
+    margin: 0 8.5px;
+}
+
+.fourb16 {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #606060;
+}
+
+.fourb17 {
+    margin-right: 0;
+}
+
+.four18 {
+    margin-bottom: 15px;
+}
+
+.four19 {
+    float: right;
+    margin-right: 5px;
+}
+
+.four20 {
+    float: left;
+}
+
+.four1 {
+    width: 1200px;
+    height: 433px;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+
+.four1a {
+    height: 40px;
+}
+
+.four1a1 {
+    float: left;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    color: #494949;
+}
+
+.four1a2 {
+    float: left;
+    margin-left: 352px;
+}
+
+.four11 {
+    float: left;
+    padding-right: 70px;
+    margin-top: 5px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #868686;
+}
+
+.four11:hover {
+    color: #00a4ff;
+}
+
+.four1a3 {
+    float: right;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    margin: 8px 35px 0 0;
+    color: #a5a5a5;
+}
+
+.four1 .four1b {
+    float: left;
+    width: 228px;
+    height: 392px;
+    background-image: url(images/four4_03.png)
+}
+
+.four1b .four1b1 {
+    float: left;
+    width: 162px;
+    height: 266px;
+    margin-top: 46px;
+    margin-left: 35px;
+}
+
+.four1b2 {
+    font-family: MicrosoftYaHei-Bold;
+    margin-bottom: 17px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.four1b3 {
+    font-family: MicrosoftYaHei-Bold;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.four1b4 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.four1b5 {
+    margin-top: -11px;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+.four1b6 {
+    font-family: MicrosoftYaHei-Bold;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.four1c {
+    float: right;
+    width: 957px;
+    height: 392px;
+}
+
+.four1c1 {
+    width: 957px;
+    height: 270px;
+    margin-top: 23px;
+}
+
+.four1c2 {
+    float: left;
+    margin-right: 13px;
+}
+
+.four1c3 {
+    float: left;
+    margin-right: 0;
+}
+
+.five {
+    margin-top: 40px;
+    height: 417px;
+    background-color: #fff;
+}
+
+.five0 {
+    float: left;
+    width: 660px;
+    height: 417px;
+}
+
+.five1 {
+    padding: 33px 0 0 25px;
+}
+
+.five2 {
+    padding: 22px 0 0 25px;
+    width: 448px;
+    font-family: SimSun;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.five3 {
+    margin: 15px 0 0 25px;
+    width: 120px;
+    height: 36px;
+    border: solid 1px #00a4ff;
+
+}
+
+.five3 a {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #00a4ff;
+    text-decoration: none;
+    margin-left: 27px;
+    line-height: 36px;
+}
+
+.five5 {
+    float: left;
+    margin-top: 33px;
+    width: 225px;
+    height: 417px;
+}
+
+.five6 {
+    float: left;
+    margin-top: 33px;
+    width: 64px;
+    height: 417px;
+}
+
+.five5 dl dt {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.five5 dl dd {
+    font-family: SimSun;
+    font-size: 12px;
+    color: #333333;
+}
+
+.five6 dl dt {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.five6 dl dd {
+    font-family: SimSun;
+    font-size: 12px;
+    color: #333333;
+}
